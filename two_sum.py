@@ -25,8 +25,8 @@ def two_sum_pairs(numbers, target):
         for j in range(i, len(numbers-1)):
             if(numbers.get(i)+numbers.get(j)==target):
                 nums.append({numbers.get(i),numbers.get(j)})
-
-
+    
+    return nums
     # When you are ready with your code make sure to return your list! This is so the autograder can grade!
     # return ExampleListName
 
