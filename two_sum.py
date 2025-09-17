@@ -21,8 +21,8 @@ def two_sum_pairs(numbers, target):
         A list of sets containing the two values that sum to the target.
     """
     nums = []
-    for i in range(len(numbers-1)):
-        for j in range(i, len(numbers-1)):
+    for i in range(len(numbers)):
+        for j in range(i, len(numbers)):
             if(numbers.get(i)+numbers.get(j)==target):
                 nums.append({numbers.get(i),numbers.get(j)})
     
