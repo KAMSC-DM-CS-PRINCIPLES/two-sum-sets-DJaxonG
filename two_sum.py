@@ -23,8 +23,8 @@ def two_sum_pairs(numbers, target):
     nums = []
     for i in range(len(numbers)):
         for j in range(i, len(numbers)):
-            if(numbers.get(i)+numbers.get(j)==target):
-                nums.append({numbers.get(i),numbers.get(j)})
+            if numbers[i]+numbers[j]==target:
+                nums.append({numbers[i],numbers[i]})
     
     return nums
     # When you are ready with your code make sure to return your list! This is so the autograder can grade!
